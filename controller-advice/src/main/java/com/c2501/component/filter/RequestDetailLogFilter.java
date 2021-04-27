@@ -43,7 +43,7 @@ public class RequestDetailLogFilter extends OncePerRequestFilter implements Orde
             }
         }
 
-        LOGGER.info("请求路径[{}]，请求参数：{}", request.getRequestURI(), sb.toString());
+        LOGGER.info("请求方式[{}]，请求路径[{}]，请求参数[{}]", request.getMethod(), request.getRequestURI(), sb.toString());
 
         filterChain.doFilter(request, response);
 
