@@ -38,7 +38,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.2501.common</groupId>
-			<artifactId>sql-util</artifactId>
+			<artifactId>common-component</artifactId>
 			<version>${c2501.common.util.version}</version>
 		</dependency>
 	</dependencies>
